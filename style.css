@@ -1,0 +1,126 @@
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+
+
+img {
+    border-radius: 100px;
+    object-fit: cover;
+    height: 200;
+    width: 200;
+}
+
+#nav {
+    background-color: antiquewhite;
+
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    /*color: brown;*/
+    
+}
+
+#skills {
+    width: 25;
+    
+}
+
+#project {
+    width: 25;
+    margin-left: 20%;
+}
+
+#about {
+    width: 25;
+    margin-left: 20%;
+    
+}
+#about1{
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+#image {
+    width: 50%;
+    margin-right: 10px;
+}
+
+#content {
+    width: 50%;
+    object-fit: cover;
+    
+
+}
+
+#empty {
+    width: 25;
+    margin-left: 20%;
+}
+
+#profile {
+    display: flex;
+}
+
+body {
+    font-family: sans-serif;
+    
+}
+
+#footer {
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20;
+    text-align: center;
+    
+    
+}
+
+#footer_links {
+    list-style: none;
+    padding: 15pt;
+
+    
+}
+
+.navigator:hover{
+    color: red;
+    font-size: 20px;
+    transition: ease-in-out;
+    transition-duration: 100ms;
+    
+}
+#footer_links li{
+    display: inline;
+    margin: 0 16px;
+
+}
+p{
+    text-align: justify;
+}
+img:hover{
+    transition: ease-in-out;
+    transition-duration: 80ms;
+    height: 220px;
+    width: 220px;
+    transition-behavior: smooth;
+}
+.copyright{
+     color: black;
+}
+.ahover:hover{
+    color: brown;
+}
+#content:hover{
+    color: brown;
+    font-size: larger;
+    transition: ease-in-out;
+    transition-duration: 80ms;
+}
